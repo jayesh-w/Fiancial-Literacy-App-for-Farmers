@@ -50,7 +50,7 @@ function scheme4(){
 </head>
 <body background="./images/d2farm.jpeg">
 	<?php include './includes/navbar.php';?>
-<img onclick="k2()" src="./images/farmer.png" height="60%" width="82%" style="margin-top:5rem; margin-left:-2rem; position:fixed; z-index:-1"/>
+<img onclick="spk();" src="./images/farmer.png" height="60%" width="82%" style="margin-top:5rem; margin-left:-2rem; position:fixed; z-index:-1"/>
 <button type="button"  style="height:3rem; width:7rem; font-size:0.72rem; margin-left:14rem; margin-top:6rem; background-color:red"><a href="./includes/schemedetails1.php?sc=1">Kisan Vikas Patra</a></button>
 <button type="button"  style="height:3rem; width:7rem; font-size:0.72rem; margin-left:14rem; margin-top:2rem; background-color:green"><a href="./includes/schemedetails1.php?sc=2">Public Provident Fund</a></button>
 <button type="button"  style="height:3rem; width:7rem; font-size:0.72rem; margin-left:14rem; margin-top:2rem; background-color:blue"><a href="./includes/schemedetails1.php?sc=3">Sukanya Samriddhi Yojna</a></button>
@@ -61,7 +61,7 @@ function scheme4(){
 
 <script>
 
-         function k2()
+         function spk()
         {
 
             responsiveVoice.speak("अपना पैसा अलग-अलग स्कीम में निवेश करें, किसान विकास के लिए लाल रंग का बटन दबाएं, सार्वजनिक भविष्य निधि के लिए हरे रंग का बटन दबाएँ, सुकन्या समृद्धि योजना के लिए पीला रंग का बटन दबाएँ, किसान  पेंशन योजना के लिए बैंगनी रंग का बटन दबाएँ।", "Hindi Male",{rate: 0.9});
