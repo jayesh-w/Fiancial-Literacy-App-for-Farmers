@@ -5,7 +5,10 @@ $level = $_GET['lvl'];
 $_SESSION['username'] = $username;
 $_SESSION['level'] = $level;
 
-
+if($level == 3 )
+  {
+	  header("location: ./quiz.php");
+  }
 
 if($level == 0)
 {
